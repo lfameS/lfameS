@@ -5,6 +5,7 @@
 I build the "glue" that turns AI APIs into working products: custom assistants, automation pipelines, scrapers, and Chrome extensions — shipped and maintained.
 
 **Currently focused on:**
+- Real-time Computer Vision & Multi-Object Tracking (8-DOF Kalman Filter · ByteTrack · Aerospace/Defense target tracking)
 - Custom GPT & Claude assistants for businesses (RAG / agentic workflows)
 - n8n automation pipelines for SMBs
 - OpenAI & Anthropic API integrations
@@ -16,6 +17,12 @@ I build the "glue" that turns AI APIs into working products: custom assistants, 
 ## 📦 Open Source
 
 Public, finished code you can read, run, and ship with — MIT-licensed.
+
+### [aerospace-target-tracker](https://github.com/lfameS/aerospace-target-tracker) · 1.0.0 · ![CI](https://img.shields.io/github/actions/workflow/status/lfameS/aerospace-target-tracker/ci.yml?label=CI) ![License](https://img.shields.io/badge/license-MIT-blue)
+
+Real-time aerospace & defense multi-object target tracker (UAV swarms, fixed-wing aircraft, and ballistic rockets). Combines an 8-State Constant-Acceleration Kalman Filter with Two-Stage ByteTrack + Mahalanobis kinematic gating for cloud/IR occlusion recovery, lookahead intercept trajectory prediction, and an interactive Electro-Optical / Thermal IR Tactical HUD.
+
+Python Computer Vision Kalman Filter ByteTrack Aerospace & Defense Gradio
 
 ### [page-to-csv](https://github.com/lfameS/page-to-csv) · `v1.0.0` · ![CI](https://img.shields.io/github/actions/workflow/status/lfameS/page-to-csv/ci.yml?label=CI) ![License](https://img.shields.io/badge/license-MIT-blue)
 
